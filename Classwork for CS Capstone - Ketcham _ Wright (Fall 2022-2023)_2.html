@@ -10,15 +10,33 @@
   </head>
   <body>
 
-  <!-- COPY AND PASTE YOUR NAVBAR FROM THE OTHER PAGE HERE AS WELL! -->
+    <!-- COPY AND PASTE YOUR NAVBAR FROM THE OTHER PAGE HERE AS WELL! -->
  
-  <nav class="crumbs">
-    <ol>
-        <li class="crumb"><a href="#">Bikes</a></li>
-        <li class="crumb"><a href="#">BMX</a></li>
-        <li class="crumb">Jump Bike 3000</li>
-    </ol>
-</nav>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="C:\Users\s_MalacWilli33056\Documents\Code\Git stuff\MALACHIJWILLIAMS\Classwork for CS Capstone - Ketcham _ Wright (Fall 2022-2023).html">Home Page</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          
+          
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="C:\Users\s_MalacWilli33056\Documents\Code\Git stuff\MALACHIJWILLIAMS\Classwork for CS Capstone - Ketcham _ Wright (Fall 2022-2023)_2.html">Second Website</a>
+            </li>
+            
+            
+            
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
   <!-- 
     CREATE A SIGNUP FORM HERE INSIDE OF A CONTAINER. INCLUDE:
     * TEXT INPUT
@@ -26,9 +44,41 @@
     * EMAIL
     * DROPDOWN
   -->
+  <div class="input-group mb-3">
+    
+    <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+    <div class="form-floating">
+      <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+      <label for="floatingTextarea">Comments</label>
+    </div>
+    <form>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+      </div>
+      
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    <form class="form-floating">
+      <input type="email" class="form-control is-invalid" id="floatingInputInvalid" placeholder="name@example.com" value="test@example.com">
+      <label for="floatingInputInvalid">Invalid input</label>
+    </form>
+    <div class="dropdown">
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+        Dropdown button
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+        <li><a class="dropdown-item" href="#">Action</a></li>
+        <li><a class="dropdown-item" href="#">Another action</a></li>
+        <li><a class="dropdown-item" href="#">Something else here</a></li>
+      </ul>
+    </div>
 
+
+  </div>
 
   <!-- Bootstrap Javascript -->
-  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
   </body>
 </html>
