@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 <!-- STEP ONE: SET UP -->
 <!-- Add the bootstrap link up here AND the script down below -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -12,6 +13,37 @@
 </head>
 
 <body>
+  <nav class="navbar navbar-expand-lg bg-secondary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/Users/malachi/Downloads/MALACHIJWILLIAMS-main/research.html">SAPIEN research</a>
+      <div class="dropdown">
+       
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        
+        
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/Users/malachi/Downloads/MALACHIJWILLIAMS-main/initialresearchname.html">Initial Research</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/Users/malachi/Downloads/MALACHIJWILLIAMS-main/Case-study-name.html">Case Study</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/Users/malachi/Downloads/MALACHIJWILLIAMS-main/Root-causes-name.html">Root Causes</a>
+          </li>
+          
+          
+        </ul>
+        
+      </div>
+    
+    </div>
+  </nav>
 <!-- STEP TWO: CUSTOMIZE THE LOOK-->
 <!-- Make adjustments to the display size, text color, background color, border, text alignment, etc... -->
 <!-- Use 4 different types of bootstrap classes -->
@@ -24,25 +56,28 @@
 <!-- To begin to understand how the following "grid" works, check out this link. This is the code we have below
 https://getbootstrap.com/docs/5.2/layout/grid/#equal-width  -->
     <div class="row">
-      <div class="border-right-0 rounded-left col p-3 mb-2 bg-primary text-white fs-1">
-        <h1 class="display-4">Problem Statement</h1>
-        <p>Many of our necessary institutions like meat production, cars, and housing, contribute a lot to climate change, which presents an issue of an unavoidable production of carbon dioxide. Farms produce 14.5% of carbon emissions worldwide. A typical passenger car releases 4.6 metric tons of CO2 each year, with 1.4 billion cars in use.</p>
+      <div class="col p-3 mb-2 fs-1">
+        <h1 style="color: #59C9A6" class="display-4">Problem Statement</h1>
+        <p style="color: #963C24">Many of our necessary institutions like meat production, cars, and housing, contribute a lot to climate change, which presents an issue of an unavoidable production of carbon dioxide. Farms produce 14.5% of carbon emissions worldwide. A typical passenger car releases 4.6 metric tons of CO2 each year, with 1.4 billion cars in use.</p>
       </div>
-      <div class="border-left-0 rounded-right col p-3 mb-2 bg-warning text-danger fs-1">
-        <h1 class="display-4">Need Statement</h1>
-        <p>We need to invest in cleaner ways to sustain the necessary functions of society. Meat can be produced in labs with much more efficiency and speed, cars can be replaced with public transit, and houses can be made more efficient by packing them tightly in city blocks.
+      
+      <div class="border-left-0 rounded-right bg-light col p-3 mb-2 text-danger fs-1">
+        <h1 style="color: #59C9A6" class="display-4">Need Statement</h1>
+        <p style="color: #963C24">We need to invest in cleaner ways to sustain the necessary functions of society. Meat can be produced in labs with much more efficiency and speed, cars can be replaced with public transit, and houses can be made more efficient by packing them tightly in city blocks.
         </p>
       </div>
     </div>
+    
     <div class="row">
-      <div class="col p-3 mb-2 bg-success text-danger fs-1">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates expedita ipsam nisi maiores totam dolor ab aspernatur, impedit debitis quod dolore odio, odit sed quasi, eligendi natus placeat accusantium sint!
+      <div class="col p-3 mb-2 text-danger fs-1">
+        <p style="color: #963C24">Global livestock production makes up 14.5 percent of all anthropogenic (human caused) emissions – 7.1 billion tons of CO2 equivalent per year.</p>
       </div>
-      <div class="col p-3 mb-2 bg-success text-warning fs-1">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta sit libero quaerat. Obcaecati a itaque accusantium, maiores delectus debitis voluptas dolor magnam optio repudiandae pariatur vel libero perferendis voluptatum exercitationem!
+      <div class="col p-3 mb-2 text-warning bg-light fs-1">
+        <h1 style="color: #59C9A6" class="display-4">Evidence</h1>
+        <p style="color: #963C24">A typical passenger car releases 4.6 metric tons of CO2 each year, with 1.4 billions cars in use.</p>
       </div>
-      <div class="col p-3 mb-2 bg-success fs-1">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam inventore doloremque odio necessitatibus nesciunt sit itaque quos magnam non. Recusandae perspiciatis voluptatem voluptatum veniam sed reprehenderit molestiae repudiandae qui atque?
+      <div class="col p-3 mb-2 fs-1">
+        <p style="color: #963C24">Suburbs spend on average $4556 per citizen, and cities spend on average $2605 per citizen. Also, city citizens drive cars 20-60% less kilometers than suburban citizens, simply because all of their destinations are closer together.</p>
       </div>
     </div>
   </div>
